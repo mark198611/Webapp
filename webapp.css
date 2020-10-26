@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .heading {
@@ -24,7 +25,12 @@ body {
   font-size: 1.3rem;
   
 }
-
+  
+.logo {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
 
 .div2 {
   width: 50vw;
@@ -37,9 +43,76 @@ body {
 .text {
   background-color: white;
   width: 60%;
-  height: 60%;
-  padding: 2rem;
+  height: 70%;
+  padding: 0 2rem 2rem 2rem;
   border-radius: 15px;
+  
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.blurb__icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text h1 {
+  font: normal normal bold 40px/50px Montserrat;
+  letter-spacing: 0px;
+  color: #211138;
+}
+
+
+input {
+  display: block;
+  width: 90%;
+  padding: .5rem;
+  margin: .5rem;
+  
+}
+
+.a {
+  display: block; 
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1rem;
+  text-align: right;
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 2.4px;
+  color: #6200EA;
+}
+
+.aa {
+  display: block; 
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: .5rem;
+  text-align: center;
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 2.4px;
+  color: #6200EA;
+  border: 2px solid #6200EA;
+  border-radius: 24px;
+  margin: .5rem;
+}
+
+.aaa {
+  display: block; 
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: .5rem;
+  text-align: center;
+  font: normal normal bold 12px/15px Montserrat;
+  letter-spacing: 2.4px;
+  color: white;
+  border: 2px solid #6200EA;
+  border-radius: 24px;
+  background-color: #6200EA;
+  margin: .5rem;
 }
 
 .footer {
