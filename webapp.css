@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.div1 {
+  width: 50vw;
+  background: #6200EA 0% 0% no-repeat padding-box;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  width: 50%;
+  font-size: 1.3rem;
+  
+}
+
+
+.div2 {
+  width: 50vw;
+  background: url('Assets/bailey-zindel-396398-unsplash.jpg') no-repeat top/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  background-color: white;
+  width: 60%;
+  height: 60%;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.footer {
+  background: #211138;
+  padding: 2rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #6200EA;
+}
+
+.footer span {
+  color: white;
+}
